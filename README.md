@@ -10,7 +10,7 @@ Attribution
 
 Tech Stack
 
-    Backend: Django, Celery
+    Backend: Django, Celery, FPDF
     Message Broker: Redis
     Database: Default Django DB (SQLite or any configured DB)
     Frontend: Basic HTML, CSS (can add JavaScript for better UX)
