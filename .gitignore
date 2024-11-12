@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Local environment settings
+.env
+*.env
+
+# Django migrations
+**/migrations/
+**/migrations/*
+
+# Media and static files
+media/
+staticfiles/
+
+# Celery beat schedule and worker PID files
+celerybeat-schedule
+celerybeat.pid
+celerybeat.lock
+
+# Redis dump file (optional, if used)
+dump.rdb
+
+# Virtual environment
+venv/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# MacOS and Linux system files
+.DS_Store
+*.swp
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyenv
+.python-version
